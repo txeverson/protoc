@@ -1,0 +1,17 @@
+syntax = "proto3";
+option go_package = "sarge/account";
+
+service AccountService {
+  rpc GetAccount(AccountRequest) returns (AccountResponse) {}
+}
+
+message AccountRequest {
+  string username = 1;
+}
+
+message AccountResponse {
+  string tenantID = 1;
+  string accountID = 2;
+  string createAt = 4;
+  string updateAt = 6;
+}
