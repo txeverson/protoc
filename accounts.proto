@@ -6,7 +6,8 @@ service AccountService {
 }
 
 message AccountRequest {
-  string username = 1;
+  string tenantID = 1;
+  string accountID = 2;
 }
 
 message AccountResponse {
