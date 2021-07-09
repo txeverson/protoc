@@ -1,4 +1,4 @@
-module github.com/txeverson/protoc
+module github.com/txeverson/protoc/bin
 
 go 1.13
 

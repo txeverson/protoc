@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package = "sarge/account";
+option go_package = "./account";
 
 service AccountService {
   rpc GetAccount(AccountRequest) returns (AccountResponse) {}

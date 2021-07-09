@@ -97,5 +97,5 @@ var AccountService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "proto/sarge/accounts.proto",
+	Metadata: "accounts.proto",
 }
