@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package = "./account";
+option go_package = "./protoc";
 
 service AccountService {
   rpc GetAccount(AccountRequest) returns (AccountResponse) {}
